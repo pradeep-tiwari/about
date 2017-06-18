@@ -1,0 +1,140 @@
+/* Header Styles */
+header {
+    padding: 1.5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+header a {
+    font-size: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+/* Section Brief Styles */
+#brief {
+    /*min-height: 100vh;*/
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    background: url(http://snapsvg.io/assets/images/background_2.svg) no-repeat -650px 0;
+    background-color: rgba(220, 220, 220, 0.24);
+}
+#brief .wrapper {
+    max-width: 880px;
+}
+#brief h1 {
+    color: #000;
+    /*color: #3481C2;*/
+    /*text-shadow: -2px 2px black;*/
+}
+#brief h1 ~ p {
+    /*color: #bfbfbf;*/
+    color: #9a8080;
+    font-weight: 700;
+    /*text-shadow: 1px 1px black;*/
+}
+#brief h5 {
+    color: #cd5c5c;
+    font-size: 2.6rem;
+}
+#brief img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+#brief img:hover {
+    filter: none;
+}
+
+/* Section OrganicJS */
+#organicjs {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#organicjs .wrapper {
+    max-width: 880px;
+}
+#organicjs .header h3 {
+    font-size: 2rem;
+    letter-spacing: inherit;
+}
+#organicjs .left h5 {
+    line-height: 4;
+    font-size: 2.6rem;
+}
+#organicjs .right h5 {
+    padding-top: 2.5rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    letter-spacing: inherit;
+}
+#organicjs .github {
+    padding-top: 4rem;
+}
+#organicjs .github .btn {
+    border: 1px solid #cddc39;
+    color: #f0f0f0;
+}
+#organicjs .github .btn:hover {
+    background-color: inherit;
+    color: #cddc39;
+}
+
+/* Bakground Utilities */
+.bg-grey {
+    background-color: #f0f0f0;
+}
+.bg-blue {
+    background-color: #3F51B5;
+}
+.bg-leaf {
+    background-color: #cddc39;
+}
+.bg-red {
+    background-color: #cd5c5c;
+}
+.bg-ash {
+    background-color: #404a35;
+}
+
+/* Color Utilities */
+.white-text {
+    color: #fff;
+}
+.blue-text {
+    color: #3F51B5;
+}
+.black-text {
+    color: #000;
+}
+.leaf-text {
+    color: #cddc39;
+}
+
+/* Margin Utilities */
+.ml2 {
+    margin-left: 2rem;
+}
+
+/* Badges */
+.badge {
+    background-color: #f0f0f0;
+    color: #646464;
+    font-size: 1.3rem;
+    padding: 0.2rem 0.62rem;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.badge-js {
+    background-color: #fecc53;
+    color: #000;
+}
+.badge-node {
+    background-color: #3e863d;
+    color: #fff;
+}
+.badge-php {
+    background-color: #3f51b5;
+    color: #fff;
+}
