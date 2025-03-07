@@ -12,11 +12,10 @@
     text-align: center;
 }
 .header .img {
-    height: 10rem;
+    height: 400px;
     margin-bottom: 2rem;
     color: #FC5653;
     border-radius: 3px;
-    border-radius: 50%;
 }
 .header h1 {
     font-size: 2.2rem;
